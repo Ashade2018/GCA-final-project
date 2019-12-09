@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  href="style.css">
+    
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="background">
+        <h1>/Krafts_Connect\</h1>
+        <div class="nav">
+            <a class="a active" href="#">Home</a>
+            <a class="b" href="#">About</a>
+            <a class="c" href="#">Gallery</a>
+            <a class="d" href="#">Contact us</a>
+            <a class="e"href="#">Sign In</a>
+            <a class="f"href="#">Sign Up</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="home">
+            <h2>Welcome to Krafts_Connect</h2>
+              
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+     //   function display() {
+           // var a="Welcome!";
+    
+           // alert("a");
+       // }
+
+       $(document). ready(function(){
+           $('a').click(function(){
+                
+                var selected = $(this);
+                $('a').removeClass('active');
+                $ (selected ). addClass('active');    
+           });
+       });
+    </script>
+
+
+
+
+   
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
